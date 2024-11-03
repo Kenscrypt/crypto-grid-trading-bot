@@ -48,7 +48,7 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
    - **Linux**: Type `./trading_bot` and press Enter.
 
 4. **Enter Your Private Key**:
-   - The bot will prompt you to enter your private key in WIF format. This key is found in your Solana wallet (look for a long string starting with a number or letter, e.g., `5KQwrPbwpL6PjXujaW31FSSQz2rP8za4BL1b4TGKnCmQ`).
+   - The bot will prompt you to enter your private key in WIF format. This key is found in your Solana wallet (look for a long string starting with a number or letter, e.g., `4fedLaBMdXDHfsEbDST7LAzWp78N6KahLATaY22gzdSoP852U1EX7MTSVsjmLtYiRGmCWULnyaWh1o8oaAPAf8eY`).
 
 5. ## Obtain RPC Links
 
