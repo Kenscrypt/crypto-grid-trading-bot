@@ -10,9 +10,7 @@ Grid trading is a strategy that profits from market fluctuations. The bot automa
 
 Please ensure that your wallet contains USDC tokens on the Solana blockchain. The bot will automatically handle buying and selling of USDC for SOL and vice versa based on your trading settings. 
 
-Do not delete or manually modify any of the text files (`pozicije.txt`, `log.txt`, `istorija.txt`), as the bot relies on these files for proper operation. Any deletion or alteration of their values may cause the bot to malfunction.
-
-If you need to reset or update any file data, please contact our support team at [kenscrypt@gmail.com](mailto:kenscrypt@gmail.com) for assistance.
+Do not delete or manually modify any of the text files (`pozicije.txt`, `log.txt`, `istorija.txt`, `rpcFile.json`), as the bot relies on these files for proper operation. Any deletion or alteration of their values may cause the bot to malfunction. If you need to reset or update any file data, please contact our support team at [kenscrypt@gmail.com](mailto:kenscrypt@gmail.com) for assistance.
 
 ## Requirements
 
@@ -20,9 +18,14 @@ If you need to reset or update any file data, please contact our support team at
 - **Solana Wallet**: A wallet with the private key in WIF format
 - **RPC URL Providers**: Accounts on Alchemy, Shyft.to, QuickNode, and InstaNode for obtaining RPC links to Solana’s mainnet.
 
+## Important System Requirement
+
+Please ensure that the terminal running the bot remains active 24/7, as well as the computer on which the bot is running, to ensure continuous trading without interruptions.
+
 ## Quick Start Guide
 
-1. **Download Bot Files**: Download the `trading_bot.exe` executable (for Windows) or the Linux version (`trading_bot`) and the following text files to a single folder:
+1. **Download Bot Files**: Download the appropriate `.7z` file for your platform (Windows or Linux) and extract its contents into a single folder. Ensure that the files inside the extracted folder are not modified. The following files will be included:
+    - `trading_bot.exe` (for Windows) or `trading_bot` (for Linux)
     - `pozicije.txt`
     - `log.txt`
     - `istorija.txt`
@@ -31,10 +34,10 @@ If you need to reset or update any file data, please contact our support team at
 2. **Set Up Terminal**:
    - **Windows**:
      - Open Command Prompt (`cmd`).
-     - Use the `cd` command to navigate to the folder where you saved `trading_bot.exe`.
+     - Use the `cd` command to navigate to the folder where you saved the bot files.
    - **Linux**:
      - Open the terminal.
-     - Use `cd` to go to the folder where you saved `trading_bot`.
+     - Use `cd` to go to the folder where you saved the bot files.
 
 3. **Run the Bot**:
    - **Windows**: Type `trading_bot.exe` and press Enter.
@@ -63,4 +66,3 @@ If you need to reset or update any file data, please contact our support team at
 If you have any questions about setting up the bot, issues with its performance, or suggestions for improvement, please feel free to reach out to our developers. We’re here to help and always open to feedback!
 
 **Contact us at**: [kenscrypt@gmail.com](mailto:kenscrypt@gmail.com)
-
