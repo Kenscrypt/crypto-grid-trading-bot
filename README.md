@@ -50,17 +50,25 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
 4. **Enter Your Private Key**:
    - The bot will prompt you to enter your private key in WIF format. This key is found in your Solana wallet (look for a long string starting with a number or letter, e.g., `5KQwrPbwpL6PjXujaW31FSSQz2rP8za4BL1b4TGKnCmQ`).
 
-5. **Obtain RPC Links**:
-   - Sign up on Alchemy, Shyft.to, QuickNode, and InstaNode.
-   - Generate an RPC link for Solana’s mainnet (this step is only required for the first time).
+5. ## Obtain RPC Links
 
-6. **Specify Trading Amount**:
+    We recommend using the following platforms to obtain RPC links for Solana's mainnet:
+    
+    - [Alchemy](https://www.alchemy.com/)
+    - [Shyft.to](https://shyft.to/)
+    - [InstaNode](https://www.instanode.com/)
+    - [Tatum](https://tatum.io/chains/solana?gclid=Cj0KCQjwvpy5BhDTARIsAHSilyl86c-Gn1YK8AkBgQmBU01-DSw7vCOpHEE-52bX2Eb2naPVnAWEWzAaAuTSEALw_wcB&utm_content=695513777478&utm_term=solana%20rpc%20nodes&utm_source=google&utm_medium=cpc&utm_campaign=21154471190&hsa_acc=2664813199&hsa_cam=21154471190&hsa_grp=166249297571&hsa_ad=695513777478&hsa_src=g&hsa_tgt=kwd-1641675695499&hsa_kw=solana%20rpc%20nodes&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1)
+    
+    To get started, sign up on any of these platforms to generate an RPC link for Solana's mainnet. Please ensure to choose the FREE tier option, as this is sufficient for the bot's operation. This step is only necessary during the initial setup of the bot. Alternatively, you can use any other Solana RPC node provider of your choice.
+
+
+7. **Specify Trading Amount**:
    - Input the amount of money you want to allocate for trading, such as `200` for 200 USD.
 
-7. **Define a Position**:
+8. **Define a Position**:
    - A "position" is opened when the bot buys SOL at a specific price and closed when it sells SOL at a higher price. The difference in price is your profit.
 
-8. **Set the Grid Step**:
+9. **Set the Grid Step**:
    - Enter a `grid step`, which is the price interval at which the bot will open new positions. For example, if SOL is initially bought at $150 and your grid step is 2, the bot will open another buy position if SOL's price drops below $148.
    - **Recommended**: Ensure that `numberOfPositions * gridStep > 30` for optimal performance.
 
