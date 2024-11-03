@@ -22,6 +22,10 @@ Do not delete or manually modify any of the text files (`pozicije.txt`, `log.txt
 
 Please ensure that the terminal running the bot remains active 24/7, as well as the computer on which the bot is running, to ensure continuous trading without interruptions.
 
+## Fees
+
+The bot charges a fee of 10% on the profits it generates. This fee is automatically deducted each time the bot makes a profit. This means you only pay fees based on the successful trades the bot executes, ensuring that your initial capital remains intact while you benefit from the bot's trading strategies.
+
 ## Quick Start Guide
 
 1. **Download Bot Files**: Download the appropriate `.7z` file for your platform (Windows or Linux) and extract its contents into a single folder. Ensure that the files inside the extracted folder are not modified. The following files will be included:
