@@ -14,7 +14,7 @@ Do not delete or manually modify any of the text files (`pozicije.txt`, `log.txt
 
 ## Requirements
 
-- **OS**: Windows or Linux
+- **OS**: Windows, Linux or MacOSX
 - **Solana Wallet**: A wallet with the private key in WIF format
 - **RPC URL Providers**: Accounts on Alchemy, Shyft.to, QuickNode, and InstaNode for obtaining RPC links to Solana’s mainnet.
 
@@ -42,10 +42,14 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
    - **Linux**:
      - Open the terminal.
      - Use `cd` to go to the folder where you saved the bot files.
+   - **MacOSX**:
+     - Open the terminal.
+     - Use `cd` to go to the folder where you saved the bot files.
 
 3. **Run the Bot**:
    - **Windows**: Type `trading_bot.exe` and press Enter.
    - **Linux**: Type `./trading_bot` and press Enter.
+   - **MacOSX**: Type `./trading_bot` and press Enter.
 
 4. **Enter Your Private Key**:
    - The bot will prompt you to enter your private key in WIF format. This key is found in your Solana wallet (look for a long string starting with a number or letter, e.g., `4fedLaBMdXDHfsEbDST7LAzWp78N6KahLATaY22gzdSoP852U1EX7MTSVsjmLtYiRGmCWULnyaWh1o8oaAPAf8eY`).
