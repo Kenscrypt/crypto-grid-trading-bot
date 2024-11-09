@@ -56,11 +56,11 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
 
 5. ## Obtain RPC Links
 
-    We recommend using the following platforms to obtain RPC links for Solana's mainnet:
+    We recommend using the following platforms to obtain RPC links for Solana's mainnet and entering them in our program in the following order:
     
-    - [Alchemy](https://www.alchemy.com/)
-    - [Shyft.to](https://shyft.to/)
     - [InstaNode](https://www.instanode.com/)
+    - [Shyft.to](https://shyft.to/)
+    - [Alchemy](https://www.alchemy.com/)
     - [Tatum](https://tatum.io/chains/solana?gclid=Cj0KCQjwvpy5BhDTARIsAHSilyl86c-Gn1YK8AkBgQmBU01-DSw7vCOpHEE-52bX2Eb2naPVnAWEWzAaAuTSEALw_wcB&utm_content=695513777478&utm_term=solana%20rpc%20nodes&utm_source=google&utm_medium=cpc&utm_campaign=21154471190&hsa_acc=2664813199&hsa_cam=21154471190&hsa_grp=166249297571&hsa_ad=695513777478&hsa_src=g&hsa_tgt=kwd-1641675695499&hsa_kw=solana%20rpc%20nodes&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1)
     
     To get started, sign up on any of these platforms to generate an RPC link for Solana's mainnet. Please ensure to choose the FREE tier option, as this is sufficient for the bot's operation. This step is only necessary during the initial setup of the bot. Alternatively, you can use any other Solana RPC node provider of your choice.
