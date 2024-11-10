@@ -26,6 +26,9 @@ Please ensure that the terminal running the bot remains active 24/7, as well as 
 
 The bot charges a fee of 10% on the profits it generates. This fee is automatically deducted each time the bot makes a profit. This means you only pay fees based on the successful trades the bot executes, ensuring that your initial capital remains intact while you benefit from the bot's trading strategies.
 
+## What is Position?
+   - A "position" is opened when the bot buys SOL at a specific price and closed when it sells SOL at a higher price. The difference in price is your profit.
+
 ## Quick Start Guide
 
 1. **Download Bot Files**: Download the appropriate `.7z` file for your platform (Windows or Linux) and extract its contents into a single folder. Ensure that the files inside the extracted folder are not modified. The following files will be included:
@@ -69,10 +72,8 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
 7. **Specify Trading Amount**:
    - Input the amount of money you want to allocate for trading, such as `200` for 200 USD.
 
-8. **Define a Position**:
-   - A "position" is opened when the bot buys SOL at a specific price and closed when it sells SOL at a higher price. The difference in price is your profit.
 
-9. **Set the Grid Step**:
+8. **Set the Grid Step**:
    - Enter a `grid step`, which is the price interval at which the bot will open new positions. For example, if SOL is initially bought at $150 and your grid step is 2, the bot will open another buy position if SOL's price drops below $148.
    - **Recommended**: Ensure that `numberOfPositions * gridStep > 30` for optimal performance.
 
