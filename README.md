@@ -59,7 +59,7 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
 
 5. ## Obtain RPC Links
 
-    We recommend using the following platforms to obtain RPC links for Solana's mainnet and entering them in our program in the following order:
+    We recommend using the following platforms to obtain RPC links for Solana's mainnet and ENTERING THEM IN OUR PROGRAM IN THE FOLLOWING ORDER: 
     
     - [InstaNodes](https://www.instanodes.io/)
     - [Shyft.to](https://shyft.to/)
