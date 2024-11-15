@@ -61,16 +61,17 @@ The bot charges a fee of 10% on the profits it generates. This fee is automatica
 
     We recommend using the following platforms to obtain RPC links for Solana's mainnet and ENTERING THEM IN OUR PROGRAM IN THE FOLLOWING ORDER: 
     
-    - [InstaNodes](https://www.instanodes.io/)
-    - [Shyft.to](https://shyft.to/)
-    - [Alchemy](https://www.alchemy.com/)
-    - [Tatum](https://tatum.io/chains/solana?gclid=Cj0KCQjwvpy5BhDTARIsAHSilyl86c-Gn1YK8AkBgQmBU01-DSw7vCOpHEE-52bX2Eb2naPVnAWEWzAaAuTSEALw_wcB&utm_content=695513777478&utm_term=solana%20rpc%20nodes&utm_source=google&utm_medium=cpc&utm_campaign=21154471190&hsa_acc=2664813199&hsa_cam=21154471190&hsa_grp=166249297571&hsa_ad=695513777478&hsa_src=g&hsa_tgt=kwd-1641675695499&hsa_kw=solana%20rpc%20nodes&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1)
+    - [Helius](https://www.helius.dev/) in format: https://mainnet.helius-rpc.com/?api-key=677a6b8c-c6f5-4a1c-a986-98a6e9bb0620
+    - [Shyft.to](https://shyft.to/) in format: https://rpc.shyft.to?api_key=ipjFUR4SkdAOxDh8
+    - [Alchemy](https://www.alchemy.com/) in format: https://solana-mainnet.g.alchemy.com/v2/iKLJ-FANGkhVamvgPotU8c8darpqmMt2
+    - [Quicknode](https://www.quicknode.com/) in format: https://warmhearted-fragrant-putty.solana-mainnet.quiknode.pro/60d23703f2aoc8728dd07fcb6b94064b8e3dbe81
     
     To get started, sign up on any of these platforms to generate an RPC link for Solana's mainnet. Please ensure to choose the FREE tier option, as this is sufficient for the bot's operation. This step is only necessary during the initial setup of the bot. Alternatively, you can use any other Solana RPC node provider of your choice.
 
 
 7. **Specify Trading Amount**:
    - Input the amount of money you want to allocate for trading, such as `200` for 200 USD.
+   - You must have at least 1$ worth of SOL to pay for first gas fees.
 
 
 8. **Set the Grid Step**:
